@@ -1,0 +1,60 @@
+    .container {
+        max-width: 1920px;
+        width: 100%;
+        color: white;
+        padding: 0px 114px;
+        padding-bottom: 45px;
+    }
+    
+    .footer {
+        background: #262529;
+    }
+    
+    .footer__img {
+        width: 1120px;
+        height: 357px;
+    }
+    
+    .footer__blockone {
+        display: flex;
+    }
+    
+    .blockone__header {
+        color: white;
+        display: flex;
+    }
+    
+    .footer__blockone p {
+        color: rgb(212, 212, 212);
+        margin-bottom: 20px;
+        margin-right: 3px
+    }
+    
+    .footer__blocktwo ul {
+        display: flex;
+        border-top: 2px solid #FFFFFF59;
+        padding-top: 16px;
+        margin-top: 13px;
+    }
+    
+    .blocktwo__year {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43px;
+        letter-spacing: -0.05em;
+    }
+    
+    .footer__blocktwo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer__blocktwo li:not(:last-child) {
+        margin-right: 58px;
+    }
+    
+    .blockone {
+        margin-top: 58px;
+        max-width: 589px;
+    }
